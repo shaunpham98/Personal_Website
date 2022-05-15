@@ -56,7 +56,7 @@ header{
 }
 
 .box{
-    background: lightgray;
+    background: white;
     width: 80%;
     padding: 50px;
     margin: 50px;
@@ -67,11 +67,22 @@ header{
 }
 
 .box main{
-    display: grid;
     justify-items: left;
     align-items: center;
     font-size: 20px;
     line-height: 30px;
+}
+
+.box p{
+    margin-bottom: 50px;
+}
+
+.box h1{
+    margin-bottom: 20px;
+}
+
+.box h2{
+    margin-bottom: 80px;
 }
 
 .box img{
@@ -85,6 +96,7 @@ header{
 
 footer{
     margin-left: 2%;
+    margin-bottom: 0.5%;
 }
 
 .homeimg img{
@@ -93,4 +105,47 @@ footer{
     border-radius: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    border: 1px solid black
+}
+
+.services h2{
+    color:rgb(85, 116, 201)
+}
+
+.about h2{
+    color: rgb(85, 116, 201)
+}
+
+.servicesbody{
+    background-image: url(/images/background.jpeg);
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.aboutbody{
+    background-image: url(/images/background.jpeg);
+    max-width: 100%;
+    height: auto;
+}
+
+.contactbody{
+    background-image: url(/images/background.jpeg);
+    max-width: 100%;
+    height: auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container{
+    margin-right: 25px;
 }

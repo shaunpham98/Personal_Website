@@ -11,7 +11,7 @@
 <script src="https://kit.fontawesome.com/9fdd90a3fc.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body class="contactbody">
 <!--allocating different elements within the page via parent components/div-->
     <header>
         <div class="innerheader">
@@ -22,14 +22,15 @@
                 <ul class="navigation">
                     <a href="/index.html"><li>Home</li></a>
                     <a href="/about.html"><li>About</li></a>
-                    <a href="/services.html"><li>Services></li></a>
-                    <a href="/contact.html"><li>Contact Us></li></a>
+                    <a href="/services.html"><li>Services</li></a>
+                    <a href="/contact.html"><li>Contact Us</li></a>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
+        <div class="box">
         <div class="container">
             <form action="action_page_php">
 
@@ -40,16 +41,18 @@
                 <input type="text" id="last" name="lastname" placeholder="Your last name..">
 
                 <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subjectquery">
+                <input type="text" id="subject" name="subjectquery" placeholder="What do you require?">
 
                 <label for="query">How can we help?</label>
-                <textarea id="query" name="query" placeholder="Write something.." style="height:200px">
+                <textarea id="query" name="query" placeholder="Provide details.." style="height:200px">
             </textarea>
                 
                 <input type="submit" value="Submit">
 
 
             </form>
+        </div>
+            <img src="/images/contact.avif" alt="Contact now!">
         </div>
     </main>
    
