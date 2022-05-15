@@ -34,7 +34,9 @@ header{
 .navigation{
     float: right;
     height: 100%;
-
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 600;
 }
 
 .navigation a{
@@ -75,14 +77,21 @@ header{
 
 .box p{
     margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
 }
 
 .box h1{
     margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
 }
 
 .box h2{
     margin-bottom: 80px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 10000;
 }
 
 .box img{
