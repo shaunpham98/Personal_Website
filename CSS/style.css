@@ -126,20 +126,20 @@ footer{
 }
 
 .servicesbody{
-    background-image: url(../images/background.jpeg);
+    background-image: url(.../images/background.jpeg);
     max-width: 100%;
     height: auto;
     
 }
 
 .aboutbody{
-    background-image: url(../images/background.jpeg);
+    background-image: url(.../images/background.jpeg);
     max-width: 100%;
     height: auto;
 }
 
 .contactbody{
-    background-image: url(../images/background.jpeg);
+    background-image: url(.../images/background.jpeg);
     max-width: 100%;
     height: auto;
 }
